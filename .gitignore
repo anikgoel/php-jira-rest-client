@@ -26,3 +26,4 @@ screen_capture.png
 bug-description.pdf
 
 .env
+/nbproject/
