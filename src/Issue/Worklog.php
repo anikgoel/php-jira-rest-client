@@ -106,4 +106,12 @@ class Worklog {
         ];
     }
 
+    /**
+     * Function to set author of worklog
+     * @param \JiraRestApi\User\User $author
+     */
+    public function setAuthor(\JiraRestApi\User\User $author) {
+        $this->author = $author;
+    }
+
 }
